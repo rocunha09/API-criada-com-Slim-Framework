@@ -19,15 +19,16 @@ $app = new \Slim\App($settings);
 
 // Set up dependencies
 $dependencies = require __DIR__ . '/../src/dependencies.php';
-$dependencies($app);
+$container = $dependencies($app);
 
 // Register middleware
 $middleware = require __DIR__ . '/../src/middleware.php';
-$middleware($app);
+
+//possibilita usar a conexão com o banco criada anteriormente.
+$container->get('db');
 
 // Register routes
 $routes = require __DIR__ . '/../src/routes.php';
-//$routes($app);
 
 // Run app
 $app->run();

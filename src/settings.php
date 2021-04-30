@@ -19,6 +19,7 @@ return [
         'db' => [
             'driver' => 'mysql',
             'host' => 'localhost',
+            'port' => 3307,
             'database' => 'slim',
             'username' => 'root',
             'password' => '',
