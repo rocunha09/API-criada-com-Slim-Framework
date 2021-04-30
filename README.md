@@ -30,5 +30,10 @@ Então vamos ao nosso projeto:
 Neste projeto foi realizado um CRUD de produtos através da nossa API.
 Para facilitar este processo foi utilizado Illuminate database com Eloquent.
 
-Lembre-se de criar o bando de dados e configurar na aplicação para rodar (para mais informações verifique db.php e settings.php que são os arquivos que possuem as configurações e uso do banco de dados).
+Lembre-se de criar o banco de dados e configurar na aplicação para rodar (para mais informações verifique db.php e settings.php que são os arquivos que possuem as configurações e uso do banco de dados).
+
+
+
+
+*Esta API faz parte da exploração e estudo do Slim framework na sua versão 3.* *, *e criada durante o curso: Desenvolvimento Web Completo  - Udemy - com o professor Jamilton Damasceno.*
 
