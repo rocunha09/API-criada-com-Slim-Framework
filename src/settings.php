@@ -27,6 +27,9 @@ return [
             'collation' => 'utf8_unicode_ci',
             'prefix' => '',
 
-        ]
+        ],
+
+        //secret
+        'secretKey' => 'b87c65f7fb07de94d87a7c9d4d66da0a9a62f0dd'   //nux.net
     ],
 ];
